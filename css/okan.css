@@ -1,0 +1,109 @@
+@charset "utf-8";
+html{
+    font-size: 62.5%;
+}
+body{
+    color: #333;
+	font-size: 2.5rem;
+	font-family: Arial, "YuGothic Medium","Yu Gothic Medium","游ゴシック Medium","游ゴシック体 Medium",YuGothic,"Yu Gothic","游ゴシック","游ゴシック体","ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	font-feature-settings : "palt";
+	-moz-osx-font-smoothing: grayscale;
+}
+.wrapper{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+/* 最初のページでレシピを隠す */
+#karaage_recipe{
+    display: none;
+}
+#curry_recipe{
+    display: none;
+}
+#gingerpork_recipe{
+    display: none;
+}
+.header-above{
+    font-style: italic;
+    font-size: 60px;
+    text-align: left;
+    font-weight: bold;
+    margin: 30px 0 10px;
+}
+.logo{
+    background-color: lightgray;
+    padding: 30px;
+}
+.btn{
+    margin-top: 30px;
+    padding: 15px 80px;
+    font-size: 40px;
+    background-color: orange;
+    color: aliceblue;
+    font-weight: bold;
+    border-color: grey;
+}
+.recipe_title{
+    margin: 100px 0 50px;
+    font-size: 50px;
+}
+.time{
+    font-size: 25px;
+    text-align: center;
+    padding: 0 20px ;
+    text-decoration: underline;
+    margin: 30px;
+}
+h2{
+    font-size: 30px;
+    background-color: lightgray;
+
+}
+.recipe_item_list{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 30px 0 60px;
+    
+}
+.recipe_item{
+    display: flex;
+	width: 100%;
+	margin: 10px;
+    justify-content: center;
+    text-decoration: underline;
+}
+.recipe_item_title{
+    width: 200px;
+	font-weight: bold;
+	text-align: left;
+}
+.recipe_item_detail{
+
+}
+.process{
+
+}
+li{
+    margin: 10px;
+    text-align: left;
+}
+
+.footer{
+    margin-top: 50px;
+	padding: 32px 0;
+	background: #707070;
+	font-size: 1.4rem;
+	color: #fff;
+}
